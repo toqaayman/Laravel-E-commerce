@@ -1,0 +1,757 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header top start*/
+	.h_top {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        text-decoration: none;
+        max-width: 1174px;
+        margin: 0 auto;
+        height: 47px;
+	}
+	.f_shiping{
+		margin: 0 auto;
+	}
+	.top_menu,.menu ul li a{
+		text-align: right;
+		padding-right: 0 !important;
+	}
+	/*header top end*/
+	/*header form start*/
+	.h_form {
+    	margin: 5px 0 8px;
+	}
+	.nav_form {
+    	width: 197px;
+    	height: 28px;
+    }
+    .h_input, .h_f_icon {
+    	font-size: 12px;
+    }
+	/*header form end*/
+	/*header bottom start*/
+	.h_bottom {
+    	padding: 2px 0;
+	}
+	.logo {
+    	margin: 0 auto;
+    }
+    .menu ul li a {
+    	font-size: 13px;
+    	line-height: 8px;
+    }
+   	/*header bottom end*/
+     /*slider start*/
+    .slider_text {
+        right: 27%;
+        bottom: 45px;
+        left: 27%;
+        padding: 0;
+
+    }
+    .slider_text h3 {
+        font-size: 9px;
+        letter-spacing: 3px;
+        padding-top: 8px;
+    }
+    .slider_text h1 {
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+
+    /*slider start*/
+   	/*trend start*/
+   	.trend,.feature,.comments,.trend_item,.appraisal,.blog,.brand,.contact {
+    padding-bottom: 10px;
+	}
+    .t_img_text{
+        text-align: center;
+    }
+
+   	.t_img_text h3 {
+    	font-size: 18px;
+    	letter-spacing: 3px;
+    	text-align: center;
+	}
+	.t_img_text h1 {
+    	font-size: 22px;
+    	text-align: center;
+	}
+	.t_img_text p {
+    	font-weight: 400;
+    	font-size: 12px;
+    }
+    .t_img_text button {
+	    font-size: 13px;
+	    width: 91px;
+	    height: 33px;
+        text-align: center;
+	    margin-bottom: 17px;
+        position: relative;
+	}
+   	/*trend end*/
+   	/*feature start*/
+   	.f_text h4 {
+	    font-size: 23px;
+	    margin-top: 20px;
+	}
+	.fe_menu ul li a {
+    	padding: 0 26px !important;
+	}
+	.fe_menu {
+    padding: 6px 0;
+	}
+	.single {
+    	margin-top: 7px;
+    	margin-left: 10px;
+	}
+    .f_purchaseicon ul li {
+        padding: 3px 7px;
+        width: 49px;
+    }
+    .eye {
+
+        height: 45px;
+        width: 45px;
+        padding: 12px;
+    }
+    .eye a i{
+        font-size: 15px;
+    }
+    .f_i_text {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .f_i_text h2 {
+        font-size: 22px;
+    }
+    .f_staricon {
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .f_staricon a i {
+        color: #e13ed7;
+        font-size: 15px;
+    }
+    .f_purchaseicon {
+    text-align: center;
+    }
+    .f_purchaseicon ul {
+    margin-bottom: 0;
+    }
+	/*feature end*/
+    /*comments start*/
+    .p_comments {
+        padding-bottom: 20px;
+    }
+    .blockquote p {
+        font-size: 22px;
+    }
+    .blockquote-footer {
+        font-size: 13px;
+    }
+    /*comments end*/
+
+    /*trending_item start*/
+    .t_i_s{
+        margin-top: 17px;
+    }
+    .trending_button, .bl_btn {
+        font-size: 16px;
+        width: 155px;
+        height: 39px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+    /*trending_item end*/
+     /*appraisal start*/
+     .app_icon, .app_text, .profile {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 7px;
+    }
+    .app_text p {
+        font-size: 11px;
+    }
+    .profile h5, .profile h6 {
+        font-size: 12px;
+    }
+     /*appraisal end*/
+     /*blog start*/
+     .blog {
+        margin-top: 10px;
+    }
+    .brand_img {
+        text-align: center;
+    }
+    .bi_img_head h2 {
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .bi_img_head p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .blog_btn{
+        text-align: center;
+
+    }
+    .blog_btn button {
+        font-size: 14px;
+        width: 129px;
+        height: 37px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        position:relative;
+    }
+     /*blog end*/
+     /*brand start*/
+    .brand_img ul li img {
+        padding: 41px 39px 9px;
+    }
+     /*brand end*/
+     /*contact start*/
+     .contact_item {
+        text-align: center;
+        padding-top:22px;
+    }
+    .contact_item h5 {
+        font-size: 18px;
+        padding-bottom: 7px;
+    }
+    .contact_item p {
+        text-align: center;
+    }
+    input{
+        margin: 0 auto;
+    }
+    /*contact end*/
+
+    /*footer start*/
+    .right_reserve,.pay {
+    text-align: center;
+    }
+    /*footer end*/
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header top start*/
+	.header_top{
+		padding:0px ;
+	}
+	.top_menu,.menu ul li a{
+		text-align: right;
+		padding-right: 0 !important;
+	}
+	/*header top end*/
+	/*header form start*/
+	.h_form {
+    	margin-top: 13px;
+    	margin-bottom: 13px;
+	}
+	/*header form end*/
+	/*header bottom start*/
+	.h_bottom {
+    	padding: 11px 0;
+	}
+	.menu ul li a {
+    	font-size: 13px;
+    	line-height: 12px;
+    }
+   	/*header bottom end*/
+
+    /*slider start*/
+    .slider_text {
+        right: 33%;
+        bottom: 70px;
+        left: 33%;
+        padding:10px 0;
+
+    }
+    .slider_text h3 {
+        font-size: 9px;
+        letter-spacing: 3px;
+        padding-top: 10px;
+    }
+    .slider_text h1 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    /*slider start*/
+   	/*trend start*/
+    .trend,.feature,.comments,.trend_item,.appraisal,.blog,.brand,.contact {
+    padding-bottom: 25px;
+    }
+   	.t_img_text h1 {
+    	font-size: 30px;
+    	padding-bottom: 4px;
+    }
+    .t_img_text button {
+	    font-size: 14px;
+	    width: 126px;
+	    height: 41px;
+	}
+	.t_img {
+        margin-top: 26px;
+        text-align: center;
+   }
+   .t_img_text button {
+        font-size: 18px;
+        width: 120px;
+        height: 45px;
+        text-align: center;
+        margin-bottom: 17px;
+
+    }
+   	/*trend end*/
+    /*feature start*/
+    .f_text {
+        margin-top: -36px;
+    }
+    .f_text h4 {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+    .fe_menu ul li a {
+        padding: 0 26px !important;
+    }
+    .fe_menu {
+    padding: 6px 0;
+    }
+    .single {
+        margin-top: 7px;
+
+    }
+    .f_img {
+        margin-top: 8px;
+    }
+
+    .right{
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -10%);
+        -ms-transform: translate(-10%, -10%);
+    }
+    .eye {
+
+        height: 58px;
+        width: 58px;
+        padding: 15px;
+    }
+    .eye a i{
+        font-size: 22px;
+    }
+    .f_i_text {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .f_i_text h2 {
+        font-size: 25px;
+    }
+    .f_staricon {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .f_staricon a i {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .f_purchaseicon {
+        text-align: center;
+    }
+    .f_purchaseicon ul {
+        margin-bottom: 0;
+    }
+      .f_purchaseicon ul li a i {
+        font-size: 17px;
+    }
+
+    /*feature end*/
+    /*comments start*/
+    .p_comments {
+        padding-bottom: 34px;
+    }
+    .f_c_quote {
+        bottom: 31px;
+        right: 10px;
+    }
+    .blockquote p {
+        font-size: 26px;
+    }
+    .blockquote-footer {
+        font-size: 15px;
+    }
+    /*comments end*/
+
+    /*trending_item start*/
+    .t_i_s{
+        margin-top: 17px;
+    }
+    .trending_button, .bl_btn {
+        font-size: 16px;
+        width: 155px;
+        height: 39px;
+        margin-top: px;
+        margin-bottom: 17px;
+    }
+    /*trending_item end*/
+     /*appraisal start*/
+     .app_icon, .app_text, .profile {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 7px;
+    }
+    .app_text p {
+        font-size: 11px;
+    }
+    .profile h5, .profile h6 {
+        font-size: 12px;
+    }
+     /*appraisal end*/
+     /*blog start*/
+     .blog {
+        margin-top: 10px;
+    }
+    .brand_img {
+        text-align: center;
+    }
+    .bi_img_head h2 {
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .bi_img_head p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .blog_btn{
+        text-align: center;
+
+    }
+    .blog_btn button {
+        font-size: 16px;
+        width: 135px;
+        height: 39px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        position:relative;
+    }
+     /*blog end*/
+     /*brand start*/
+    .brand_img ul li img {
+        padding: 41px 39px 9px;
+    }
+     /*brand end*/
+     /*contact start*/
+     .contact_item {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .contact_item h5 {
+        font-size: 18px;
+        padding-bottom: 7px;
+    }
+    .contact_item p {
+        text-align: center;
+    }
+    .input {
+        width: 160px;
+    }
+    .cibtn {
+        width: 161px !important;
+    }
+    /*contact end*/
+
+    /*footer start*/
+    .right_reserve,.pay {
+    text-align: center;
+    }
+    /*footer end*/
+
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header top start*/
+	.top_menu,.menu ul li a{
+		text-align: right;
+		padding-right: 0 !important;
+	}
+	/*header top end*/
+	/*header form start*/
+	.h_form {
+    	margin-top: 12px;
+   		margin-bottom: 12px;
+   	}
+   	/*header form end*/
+   	/*header bottom start*/
+	.h_bottom {
+    	padding: 11px 0;
+	}
+   	/*header bottom end*/
+   	/*slider start*/
+	.slider_text {
+    	right: 31%;
+    	bottom: 103px;
+    	left: 31%;
+    	padding: 10px 0;
+    }
+    .slider_text h3,.t_img_text h3 {
+    	font-size: 18px;
+    	letter-spacing: 3px;
+    	padding-bottom: 0px;
+    }
+    .slider_text h1,.t_img_text h1 {
+    	font-size: 32px;
+    	padding-bottom: 8px;
+    }
+	/*slider end*/
+	/*trend start*/
+	.trend,.feature,.comments,.trend_item,.appraisal,.blog,.brand,.contact {
+   	 	padding-bottom: 20px;
+   	 }
+	.t_img_text p {
+    	padding: 10px 0;
+	}
+	.t_img_text button{
+		height: 35px;
+	}
+    .u_Img {
+    	margin-bottom: -5px;
+	}
+    /*trend end*/
+    /*featured start*/
+    .f_text h4 {
+    	font-size: 23px;
+    }
+    .fe_menu {
+    	padding:  0;
+	}
+	.f_i_text h2 {
+    	font-size: 25px;
+        text-align: center;
+	}
+    .f_staricon,.f_purchaseicon {
+        text-align: center;
+    }
+    .f_purchaseicon ul {
+        margin-bottom: 0;
+    }
+
+	.f_staricon a i {
+    	font-size: 15px;
+	}
+    .f_purchaseicon ul li a i {
+        padding: 3px 2px;
+    }
+    .eye {
+        height: 60px;
+        width: 60px;
+        padding: 18px;
+    }
+    .eye a i{
+        font-size: 17px;
+    }
+    .right {
+
+    left: 19%;
+    transform: translate(-10%, -19%);
+    -ms-transform: translate(-10%, -19%);
+    }
+    .off {
+
+        border-radius:50px;
+        height:60px;
+        width:60px;
+    }
+    .off h6 {
+        font-size: 15px;
+        padding: 11px;
+    }
+    /*featured end*/
+    /*comments start*/
+    .blockquote p {
+    	font-size: 23px;
+	}
+    .blockquote-footer {
+        font-size: 13px;
+    }
+     /*comments end*/
+     /*trending item start */
+     .trending_button {
+    	font-size: 17px;
+    	width: 184px;
+    	height: 37px;
+    	margin-top: 35px;
+	}
+     /*trending item end */
+     /*appraisal start*/
+     .app_icon, .app_text, .profile {
+    	padding-top: 16px;
+    	padding-bottom: 9px;
+    }
+    .app_text p {
+    	font-size: 12px;
+	}
+	.profile h5, .profile h6 {
+    	font-size: 12px;
+	}
+     /*appraisal end*/
+     /*blog start*/
+     .blog {
+    	margin-top: 35px;
+	}
+	.bi_img_head h2 {
+    	font-size: 21px;
+    	padding-bottom: 5px;
+	}
+	.bi_img_head p {
+    font-size: 13px;
+	}
+	.bl_btn {
+    	font-size: 12px;
+    	width: 114px;
+    	height: 31px;
+	}
+     /*blog end*/
+
+     /*brand start*/
+     .brand_img ul {
+    text-align: center;
+    }
+     .brand_img ul li img {
+    	padding: 34px 48px 9px;
+	}
+	/*brand end*/
+
+	/*contact start*/
+	.contact_item {
+    	padding-top: 30px;
+	}
+	.contact_item p {
+    	font-size: 14px;
+	}
+	.input {
+        width: 167px;
+    }
+    .cibtn {
+    font-size: 13px;
+    width: 167px !important;
+    margin-left: -42px;
+	}
+    .s_media {
+    margin-left: -35px;
+    }
+    .s_media ul li a i {
+    	font-size: 22px;
+    	padding: 2px 1px 7px 18px;
+	}
+	/*contact end*/
+    /*footer start*/
+	.right_reserve p {
+    	font-size: 12px;
+	}
+    /*footer end*/
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*slider start*/
+	.slider_text {
+    	right: 30%;
+    	bottom: 168px;
+    	left: 30%;
+    	padding: 10px 0;
+    }
+    .slider_text h3 {
+    	font-size: 17px;
+    	letter-spacing: 7px;
+    	padding-bottom: 0px;
+    }
+    .slider_text h1 {
+    	font-size: 45px;
+    	padding-bottom: 8px;
+    }
+	/*slider end*/
+	/*trend start*/
+	.trend,.feature,.comments,.blog,.trend_item,.appraisal,.brand,.contact{
+		padding-bottom: 35px;
+	}
+	.b_img img {
+    	margin-top: 62px;
+    }
+	/*trend end*/
+	/*ferture start*/
+    .fe_menu ul li a {
+        padding-left: 12px !important;
+    }
+	.f_text h4 {
+    	font-size: 23px;
+    }
+    .fe_menu {
+    	padding: 12px 0;
+	}
+	.f_i_text h2 {
+    	font-size: 26px;
+	}
+	/*ferture end*/
+	/*comments start*/
+	.blockquote p {
+    	font-size: 30px;
+    }
+    .trending_button{
+	    font-size: 16px;
+	    width: 220px;
+	    height: 45px;
+	}
+	/*comments end*/
+	/*appraisal start*/
+	.app_icon, .app_text, .profile {
+    	padding-top: 41px;
+    	padding-bottom: 21px;
+    }
+	/*appraisal end*/
+	/*blog start*/
+	.bi_img_head h2 {
+    	font-size: 26px;
+    }
+
+	/*blog end*/
+	/*brand start*/
+	.brand_img ul li img {
+    	padding: 55px 16px 9px;
+    }
+	/*brand end*/
+	/*footer start*/
+	.right_reserve p {
+    	font-size: 12px;
+    }
+	/*footer end*/
+
+
+
+
+
+
+}
+/*Extra large device (deskptops,1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+
+}
+
+
+
